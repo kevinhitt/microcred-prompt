@@ -3,28 +3,56 @@
   <img src="https://ctpe-bucket-general.s3.us-east-2.amazonaws.com/prompt-img-header.png" alt="USF badge artwork"/>
 </p>
 
-This repository contains standardized, evidence-based prompts for generating
-audit-defensible microcredential metadata.
-
-These prompts are designed to support:
-
-- Employer credibility
-- Compliance and review readiness
-- Non-fabrication standards
-- Scalable credential operations
-
-They prioritize accuracy, traceability, and honest representation over inflated claims.
-
 ---
 
 ## Purpose
 
-Many digital credentials fail due to vague descriptions, invented rigor,
-or unsupported learning claims.
+This repository contains prompts for generating
+high-quality, evidence-based microcredential metadata.
 
-This library provides governance-focused prompt templates that transform
-course materials into achievement-based credential metadata without
-exaggeration or misrepresentation.
+It supports the University of South Florida’s commitment to producing
+credible, employer-recognized digital credentials by ensuring that all
+descriptions, skills, and earning criteria are grounded in verified source
+materials and accurately represent demonstrated learning outcomes.
+
+These prompts are designed to:
+
+- Reformat descriptions to meet constraints of the Credly by Pearson system
+- Prevent inflated or unsupported claims  
+- Support internal review and approval processes  
+- Enable scalable, repeatable metadata production 
+- Preserve long-term institutional and employer trust 
+
+This library functions as a quality-control layer that complements platform
+tools and human review, helping ensure that microcredentials remain defensible,
+transparent, and workforce-relevant over time.
+
+---
+
+## Platform Context: Credly by Pearson AI Tools
+
+<p align="center">
+  <img src="https://ctpe-bucket-general.s3.us-east-2.amazonaws.com/template_gen.webp" alt="Credly AI template generator"/>
+</p>
+
+Pearson Credly provides built-in AI-assisted templates for generating credential
+descriptions, skills, and earning criteria.
+
+While useful for rapid drafting, these tools are designed for general-purpose
+content generation and do not enforce institution-specific governance,
+evidence standards, or audit requirements.
+
+This prompt library exists to complement and strengthen platform tools by:
+
+- Enforcing USF-specific quality and compliance expectations  
+- Preventing hallucinated or inflated earning criteria  
+- Prioritizing traceability to verified source materials  
+- Supporting internal review and approval workflows  
+- Preserving long-term employer trust and credential credibility  
+
+These prompts are intentionally more restrictive than default platform templates.
+They reflect a strategic choice to prioritize accuracy, defensibility, and
+workforce relevance over speed of generation.
 
 ---
 
