@@ -1,4 +1,7 @@
 # USF Microcredential Prompt Library
+<p align="center">
+  <img src="https://ctpe-bucket-general.s3.us-east-2.amazonaws.com/prompt-img-header.png" alt="USF badge artwork"/>
+</p>
 
 This repository contains standardized, evidence-based prompts for generating
 audit-defensible microcredential metadata.
