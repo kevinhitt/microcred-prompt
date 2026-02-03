@@ -32,8 +32,20 @@ exaggeration or misrepresentation.
 
 | File | Description |
 |------|-------------|
-| `full.md` | Detailed governance version for high-stakes review |
-| `mini.md` | Compressed version for automation and batch use |
+| [`full.md`](/full.md) | Detailed governance version for high-stakes review |
+| [`mini.md`](/mini.md) | Compressed version for automation and batch use |
+
+---
+
+## Usage
+
+1. Select a prompt file
+2. Append source course/program text
+3. Submit to LLM
+4. Review for compliance
+5. Submit metadata for review to [microcredentials@usf.edu](mailto:microcredentials@usf.edu)
+
+These prompts may be embedded in scripts, APIs, or workflows.
 
 ---
 
